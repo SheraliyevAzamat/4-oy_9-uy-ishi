@@ -26,7 +26,7 @@ app.use("/products", productRoutes);
 app.use("/orders", orderRoutes);
 
 // Start Server
-const PORT = 4000;
+const PORT = 4002;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
